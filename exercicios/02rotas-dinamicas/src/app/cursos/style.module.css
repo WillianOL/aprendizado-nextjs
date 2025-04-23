@@ -1,0 +1,20 @@
+.curso {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  gap: 5px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: rgb(233, 233, 233);
+  transition: all .3s ease;
+  padding: 10px;
+  border-radius: 5px;
+  & p, h2 {
+    margin: 0;
+  }
+  &:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.137);
+    background-color: rgb(60, 151, 255);
+    color: white;
+  }
+}
